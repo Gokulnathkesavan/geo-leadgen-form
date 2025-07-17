@@ -1,96 +1,79 @@
-📍 Location-Aware Lead Generation Landing Page
-📝 Project Overview
-A responsive and interactive lead generation landing page designed to collect qualified leads for a local sports service. The page intelligently validates user-submitted locations using real-time map data and optimizes the experience for location-based services.
+# 📍 Location-Aware Lead Generation Landing Page
 
-🔧 Features & Highlights
-✅ Smart Location Input
-Integrated Google Places Autocomplete
+## 📝 Overview
 
+A modern, responsive landing page tailored for **location-based lead generation**. Built for services that operate within a specific geographic radius, the system validates the user's location in real time, offering dynamic feedback and an interactive map experience.
 
-Inline "Use My Location" option directly inside the input field
+---
 
+## 🚀 Features
 
-Users can select or pin exact locations
+### ✅ Smart Location Input
+- Google Places Autocomplete integration  
+- "Use My Location" button inside input field  
+- Users can search or pin their exact location  
 
+### 📏 Real-Time Distance Validation
+- Calculates **driving distance** to a fixed location (e.g., academy)  
+- Warns if user is more than **8 km** away  
+- Option to override and submit anyway  
 
-📏 Real-Time Distance Validation
-Calculates driving distance from user to a predefined academy location
+### 🗺️ Interactive Google Map
+- Live markers for both user and academy  
+- Displays route using **Google Directions API**  
+- Auto zoom and boundary fit for best view  
 
+### 🎨 Clean UI & Responsive Design
+- Built with **TailwindCSS**  
+- Mobile-friendly and fast-loading layout  
+- Bold CTAs like _“Secure Your Child’s Spot Today”_  
 
-Displays live feedback if the distance exceeds 8 km
+### ⚙️ Backend Automation
+- Built with **PHP**  
+- Validates/sanitizes user inputs  
+- Sends lead data to **Telegram Bot** in real time  
 
+---
 
-Allows users to override if they are still interested
+## 📊 APIs Used
 
+- ✅ Google Maps JavaScript API  
+- ✅ Google Places API  
+- ✅ Google Directions API  
+- ✅ Google Distance Matrix API  
+- ✅ Telegram Bot API  
 
-🗺️ Interactive Google Map Preview
-Live map renders user’s location and destination
+---
 
+## 🛠️ Tech Stack
 
-Driving route is drawn using Google Directions API
+| Layer     | Technologies                         |
+|-----------|--------------------------------------|
+| Frontend  | HTML, TailwindCSS, JavaScript        |
+| Backend   | PHP                                  |
+| APIs      | Google Maps Platform, Telegram Bot   |
 
+---
 
-Auto-adjusts bounds for best visibility
+## 📌 Deployment Notes
 
+- Store all API keys in environment variables  
+- Make sure **Google Cloud billing** is enabled  
+- Free tier is typically enough for ~1,000 users/month  
+- Host on any PHP-compatible hosting (e.g., cPanel, Vercel with serverless functions)
 
-🎯 High-Conversion UI Design
-TailwindCSS-based responsive layout
+---
 
+## 🌍 Demo -Link / Location Preview
 
-Focused messaging and minimal distraction
+📍 https://thiramsports.in/registration/
 
+---
 
-Clear and bold CTAs like “Secure Your Child’s Spot Today”
+## 💡 Ideal Use Case
 
+Great for **sports academies**, **training centers**, **clinics**, or **local businesses** that serve customers within a specific location radius.
 
-📬 Backend Automation
-Built with PHP
+---
 
-
-Validates and sanitizes form submissions
-
-
-Sends lead data to admin via Telegram Bot API in real time
-
-
-📊 Efficient API Usage
-Google Maps JavaScript API
-
-
-Google Places API
-
-
-Google Directions API
-
-
-Google Distance Matrix API
-
-
-
-🛠 Tech Stack
-Frontend: HTML, TailwindCSS, JavaScript
-
-
-Backend: PHP
-
-
-APIs: Google Maps Platform, Telegram Bot API
-
-
-
-📌 Deployment Notes
-All sensitive keys (Google Maps & Telegram) should be kept secure using environment variables
-
-
-Ensure billing is active on Google Cloud account (free tier sufficient for ~1000 monthly users)
-
-
-
-📍 Live Demo / Sample Link
-View Location on Google Maps
-
-📂 Use Case
-Ideal for businesses or services targeting local users where service availability depends on the user's location.
-
-Feel free to clone, adapt, or extend this for any location-based lead capture requirements!
 
